@@ -1,0 +1,87 @@
+{
+  "common": {
+    "loading": "በመጫን ላይ...",
+    "save": "አስቀምጥ",
+    "cancel": "ሰርዝ",
+    "back": "ተመለስ",
+    "submit": "አስገባ",
+    "delete": "አጥፋ",
+    "edit": "አስተካክል",
+    "yes": "አዎ",
+    "no": "አይደለም",
+    "confirm": "አረጋግጥ",
+    "search": "ፈልግ"
+  },
+  "nav": {
+    "home": "መነሻ",
+    "garages": "ጋራጆች",
+    "parts": "መለዋወጫዎች",
+    "dashboard": "ዳሽቦርድ",
+    "myOrders": "ትዕዛዞቼ",
+    "wallet": "ዋሌት",
+    "settings": "ቅንብሮች",
+    "chat": "መልዕክት",
+    "cart": "ጋሪ",
+    "profile": "መገለጫ",
+    "signOut": "ውጣ"
+  },
+  "settings": {
+    "title": "ቅንብሮች",
+    "account": "መለያ",
+    "general": "ጠቅላላ",
+    "about": "ስለ",
+    "accountInfo": "የመለያ መረጃ",
+    "accountInfoDesc": "ስም፣ ስልክ፣ አካባቢ፣ ባዮ",
+    "changePassword": "የይለፍ ቃል ቀይር",
+    "changePasswordDesc": "የይለፍ ቃል ዳግም ማስጀመሪያ ኢሜል ላክ",
+    "notifications": "ማሳወቂያዎች",
+    "notificationsDesc": "የማሳወቂያ ምርጫዎችን አስተዳድር",
+    "appearance": "ገጽታ",
+    "appearanceDesc": "በብርሃን እና ጨለማ መካከል ቀይር",
+    "language": "ቋንቋ",
+    "languageDesc": "የመረጡትን ቋንቋ ይምረጡ",
+    "lightMode": "ብርሃን",
+    "darkMode": "ጨለማ",
+    "aboutApp": "ስለ ጋራጅ-ጎ",
+    "aboutAppDesc": "ስሪት 1.0 \u2022 ለኢትዮጵያ ሹፌሮች"
+  },
+  "wallet": {
+    "title": "ዋሌት",
+    "balance": "ቀሪ ሂሳብ",
+    "topUp": "ሞላ",
+    "withdraw": "አውጣ"
+  },
+  "cart": {
+    "title": "ጋሪዬ",
+    "empty": "ጋሪዎ ባዶ ነው",
+    "browse": "መለዋወጫዎችን ይመልከቱ",
+    "total": "ድምር",
+    "payWithWallet": "በዋሌት ይክፈሉ",
+    "continueShopping": "ግዢ ይቀጥሉ",
+    "remove": "አስወግድ",
+    "contactSeller": "ሻጩን ያነጋግሩ"
+  },
+  "garage": {
+    "bookService": "አገልግሎት ይያዙ",
+    "unlockContact": "አድራሻ ይክፈቱ \u2014 10 ብር",
+    "contactLocked": "አድራሻ ተደብቋል \u2014 ለማየት ይክፈቱ",
+    "awaitingMechanic": "የመካኒክ ምላሽ በመጠባበቅ ላይ...",
+    "contactRejected": "መካኒኩ አልተቀበለም። ገንዘብዎ ተመልሷል።",
+    "listingFeeNote": "የ100 ብር የመመዝገቢያ ክፍያ ከዋሌትዎ ይቀነሳል።"
+  },
+  "part": {
+    "listingFeeNote": "የ20 ብር የመመዝገቢያ ክፍያ ከዋሌትዎ ይቀነሳል።"
+  },
+  "receipt": {
+    "title": "የክፍያ ደረሰኝ",
+    "download": "PDF አውርድ",
+    "from": "ከ",
+    "to": "ወደ",
+    "amount": "መጠን",
+    "date": "ቀን",
+    "orderId": "የትዕዛዝ ቁጥር",
+    "service": "አገልግሎት",
+    "item": "እቃ",
+    "thanks": "ጋራጅ-ጎን ስለተጠቀሙ እናመሰግናለን"
+  }
+}

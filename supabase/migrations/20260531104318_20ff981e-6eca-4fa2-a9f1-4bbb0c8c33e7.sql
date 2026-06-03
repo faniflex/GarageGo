@@ -1,0 +1,1 @@
+DROP FUNCTION IF EXISTS public.process_wallet_payment(uuid, uuid, numeric, uuid, text);

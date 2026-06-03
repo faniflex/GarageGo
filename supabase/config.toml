@@ -1,0 +1,4 @@
+project_id = "qcneomegukrqqolmdarn"
+
+[functions.chapa-verify]
+verify_jwt = false

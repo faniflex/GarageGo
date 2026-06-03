@@ -1,0 +1,87 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "back": "Back",
+    "submit": "Submit",
+    "delete": "Delete",
+    "edit": "Edit",
+    "yes": "Yes",
+    "no": "No",
+    "confirm": "Confirm",
+    "search": "Search"
+  },
+  "nav": {
+    "home": "Home",
+    "garages": "Garages",
+    "parts": "Parts",
+    "dashboard": "Dashboard",
+    "myOrders": "My Orders",
+    "wallet": "Wallet",
+    "settings": "Settings",
+    "chat": "Chat",
+    "cart": "Cart",
+    "profile": "Profile",
+    "signOut": "Sign Out"
+  },
+  "settings": {
+    "title": "Settings",
+    "account": "Account",
+    "general": "General",
+    "about": "About",
+    "accountInfo": "Account Info",
+    "accountInfoDesc": "Name, phone, location, bio",
+    "changePassword": "Change Password",
+    "changePasswordDesc": "Send a password reset email",
+    "notifications": "Notifications",
+    "notificationsDesc": "Manage notification preferences",
+    "appearance": "Appearance",
+    "appearanceDesc": "Switch between light and dark mode",
+    "language": "Language",
+    "languageDesc": "Choose your preferred language",
+    "lightMode": "Light",
+    "darkMode": "Dark",
+    "aboutApp": "About Garage-Go",
+    "aboutAppDesc": "Version 1.0 \u2022 Built for Ethiopian drivers"
+  },
+  "wallet": {
+    "title": "Wallet",
+    "balance": "Balance",
+    "topUp": "Top Up",
+    "withdraw": "Withdraw"
+  },
+  "cart": {
+    "title": "My Cart",
+    "empty": "Your cart is empty",
+    "browse": "Browse Spare Parts",
+    "total": "Total",
+    "payWithWallet": "Pay with Wallet",
+    "continueShopping": "Continue Shopping",
+    "remove": "Remove",
+    "contactSeller": "Contact Seller"
+  },
+  "garage": {
+    "bookService": "Book Service",
+    "unlockContact": "Unlock contact \u2014 10 ETB",
+    "contactLocked": "Contact hidden \u2014 unlock to view",
+    "awaitingMechanic": "Awaiting mechanic acceptance...",
+    "contactRejected": "Mechanic rejected. Refund issued.",
+    "listingFeeNote": "A one-time listing fee of 100 ETB will be charged from your wallet."
+  },
+  "part": {
+    "listingFeeNote": "A one-time listing fee of 20 ETB will be charged from your wallet."
+  },
+  "receipt": {
+    "title": "Payment Receipt",
+    "download": "Download PDF",
+    "from": "From",
+    "to": "To",
+    "amount": "Amount",
+    "date": "Date",
+    "orderId": "Order ID",
+    "service": "Service",
+    "item": "Item",
+    "thanks": "Thank you for using Garage-Go"
+  }
+}

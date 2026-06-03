@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.3 on win32)" generated="2026-06-02T14:18:28.742136" rpa="false" schemaversion="5">
+<suite id="s1" name="All Tests" source="C:\Users\fanue\OneDrive\Desktop\GarageGo V1.4\robot_tests\tests\all_tests.robot">
+<test id="s1-t1" name="FR-001 User Registration :: TC-REG-001" line="8">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:18:29.338641" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/auth'.</msg>
+<arg>${BASE_URL}/auth</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-06-02T14:18:29.338051" elapsed="1.989848"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>xpath=//form</arg>
+<arg>timeout=15s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-06-02T14:18:31.329518" elapsed="0.032773"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:18:31.365585" level="INFO">Clicking button 'xpath=//*[@id="root"]/div[2]/main/div/form/p/button'.</msg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div/form/p/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:18:31.364706" elapsed="0.191994"/>
+</kw>
+<arg>Click Button</arg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div/form/p/button</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:18:31.363562" elapsed="0.193578"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:18:31.558822" level="INFO">Typing text 'Test User' into text field 'xpath=//*[@id="fullName"]'.</msg>
+<arg>xpath=//*[@id="fullName"]</arg>
+<arg>Test User</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:18:31.558436" elapsed="0.199265"/>
+</kw>
+<arg>Input Text</arg>
+<arg>xpath=//*[@id="fullName"]</arg>
+<arg>Test User</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:18:31.557764" elapsed="0.200479"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:18:31.760590" level="INFO">Typing text '+251900112233' into text field 'xpath=//*[@id="phone"]'.</msg>
+<arg>xpath=//*[@id="phone"]</arg>
+<arg>+251900112233</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:18:31.759675" elapsed="0.180163"/>
+</kw>
+<arg>Input Text</arg>
+<arg>xpath=//*[@id="phone"]</arg>
+<arg>+251900112233</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:18:31.758906" elapsed="0.181100"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:18:31.941393" level="INFO">Typing text 'testuser@example.com' into text field 'xpath=//*[@id="email"]'.</msg>
+<arg>xpath=//*[@id="email"]</arg>
+<arg>testuser@example.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:18:31.941039" elapsed="0.210597"/>
+</kw>
+<arg>Input Text</arg>
+<arg>xpath=//*[@id="email"]</arg>
+<arg>testuser@example.com</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:18:31.940475" elapsed="0.211384"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:18:32.154770" level="INFO">Typing text 'password123' into text field 'xpath=//*[@id="password"]'.</msg>
+<arg>xpath=//*[@id="password"]</arg>
+<arg>password123</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:18:32.153873" elapsed="0.146035"/>
+</kw>
+<arg>Input Text</arg>
+<arg>xpath=//*[@id="password"]</arg>
+<arg>password123</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:18:32.152403" elapsed="0.147754"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:18:32.301578" level="INFO">Clicking button 'xpath=///*[@id="root"]/div[2]/main/div/form/button'.</msg>
+<msg time="2026-06-02T14:18:32.444900" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-136.png"&gt;&lt;img src="selenium-screenshot-136.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-06-02T14:18:32.445385" level="FAIL">InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression ///*[@id="root"]/div[2]/main/div/form/button because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '///*[@id="root"]/div[2]/main/div/form/button' is not a valid XPath expression.
+  (Session info: chrome=148.0.7778.179); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff794f57de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff794f57e50+14900]
+	chromedriver!(No symbol) [0x7ff794cbd5ad]
+	chromedriver!(No symbol) [0x7ff794cc5521]
+	chromedriver!(No symbol) [0x7ff794cc85e5]
+	chromedriver!(No symbol) [0x7ff794cc86af]
+	chromedriver!(No symbol) [0x7ff794d16f9e]
+	chromedriver!(No symbol) [0x7ff794d17b2c]
+	chromedriver!(No symbol) [0x7ff794d67d47]
+	chromedriver!(No symbol) [0x7ff794d6486f]
+	chromedriver!(No symbol) [0x7ff794d09df8]
+	chromedriver!(No symbol) [0x7ff794d0ace3]
+	chromedriver!GetHandleVerifier [0x7ff79526cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff795267375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff79528bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff794f76045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff794f7ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff794f61bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff794f61d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff794f460e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ffd08c7e957+17]
+	ntdll!RtlUserThreadStart [0x7ffd0a9c427c+2c]
+</msg>
+<arg>xpath=///*[@id="root"]/div[2]/main/div/form/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="FAIL" start="2026-06-02T14:18:32.301257" elapsed="0.155473">InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression ///*[@id="root"]/div[2]/main/div/form/button because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '///*[@id="root"]/div[2]/main/div/form/button' is not a valid XPath expression.
+  (Session info: chrome=148.0.7778.179); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff794f57de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff794f57e50+14900]
+	chromedriver!(No symbol) [0x7ff794cbd5ad]
+	chromedriver!(No symbol) [0x7ff794cc5521]
+	chromedriver!(No symbol) [0x7ff794cc85e5]
+	chromedriver!(No symbol) [0x7ff794cc86af]
+	chromedriver!(No symbol) [0x7ff794d16f9e]
+	chromedriver!(No symbol) [0x7ff794d17b2c]
+	chromedriver!(No symbol) [0x7ff794d67d47]
+	chromedriver!(No symbol) [0x7ff794d6486f]
+	chromedriver!(No symbol) [0x7ff794d09df8]
+	chromedriver!(No symbol) [0x7ff794d0ace3]
+	chromedriver!GetHandleVerifier [0x7ff79526cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff795267375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff79528bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff794f76045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff794f7ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff794f61bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff794f61d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff794f460e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ffd08c7e957+17]
+	ntdll!RtlUserThreadStart [0x7ffd0a9c427c+2c]
+</status>
+</kw>
+<arg>Click Button</arg>
+<arg>xpath=///*[@id="root"]/div[2]/main/div/form/button</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:18:32.300764" elapsed="0.156280"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:18:40.634139" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-137.png"&gt;&lt;img src="selenium-screenshot-137.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-06-02T14:18:40.634482" level="FAIL">Text 'xpath=//*[@id="root"]/div[1]/ol/li' did not appear in 8 seconds.</msg>
+<arg>xpath=//*[@id="root"]/div[1]/ol/li</arg>
+<arg>timeout=8s</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="FAIL" start="2026-06-02T14:18:32.459282" elapsed="8.178927">Text 'xpath=//*[@id="root"]/div[1]/ol/li' did not appear in 8 seconds.</status>
+</kw>
+<arg>Wait Until Page Contains</arg>
+<arg>xpath=//*[@id="root"]/div[1]/ol/li</arg>
+<arg>timeout=8s</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:18:32.457941" elapsed="8.180500"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-06-02T14:18:40.642925" elapsed="2.446030"/>
+</kw>
+<doc>User Registration flow - TC-REG-001</doc>
+<tag>Functional</tag>
+<tag>p1</tag>
+<tag>planned</tag>
+<status status="PASS" start="2026-06-02T14:18:29.336168" elapsed="13.753324"/>
+</test>
+<test id="s1-t2" name="FR-002 User Login :: TC-AUTH-001" line="21">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:18:43.091812" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/auth'.</msg>
+<arg>${BASE_URL}/auth</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-06-02T14:18:43.091362" elapsed="1.546043"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>xpath=//form</arg>
+<arg>timeout=15s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-06-02T14:18:44.638224" elapsed="0.027322"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:18:44.667125" level="INFO">Typing text 'fanue000@gmail.com' into text field 'xpath=//*[@id="email"]'.</msg>
+<arg>xpath=//*[@id="email"]</arg>
+<arg>fanue000@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:18:44.666805" elapsed="0.255174"/>
+</kw>
+<arg>Input Text</arg>
+<arg>xpath=//*[@id="email"]</arg>
+<arg>fanue000@gmail.com</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:18:44.666251" elapsed="0.255878"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:18:44.923547" level="INFO">Typing text '12345678' into text field 'xpath=//*[@id="password"]'.</msg>
+<arg>xpath=//*[@id="password"]</arg>
+<arg>12345678</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:18:44.923212" elapsed="0.164823"/>
+</kw>
+<arg>Input Text</arg>
+<arg>xpath=//*[@id="password"]</arg>
+<arg>12345678</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:18:44.922671" elapsed="0.165606"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:18:45.089722" level="INFO">Clicking button 'xpath=//*[@id="root"]/div[2]/main/div/form/button'.</msg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div/form/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:18:45.089414" elapsed="0.153785"/>
+</kw>
+<arg>Click Button</arg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div/form/button</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:18:45.088845" elapsed="0.154760"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>xpath=//*[@id="root"]/div[2]/div[1]/header/div/div/a[4]/span[2]</arg>
+<arg>timeout=8s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-06-02T14:18:45.245065" elapsed="1.325009"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-06-02T14:18:46.571029" elapsed="2.276977"/>
+</kw>
+<doc>Login - TC-AUTH-001</doc>
+<tag>Functional</tag>
+<tag>p1</tag>
+<tag>planned</tag>
+<tag>Security</tag>
+<status status="PASS" start="2026-06-02T14:18:43.090486" elapsed="5.758119"/>
+</test>
+<test id="s1-t3" name="FR-003 Find Garage :: TC-LOC-001" line="31">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:18:48.851146" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/garages'.</msg>
+<arg>${BASE_URL}/garages</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-06-02T14:18:48.850691" elapsed="1.655211"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>xpath=//*[@id="root"]/div[2]/main/div[2]/div[1]/input</arg>
+<arg>timeout=15s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-06-02T14:18:50.506856" elapsed="0.033983"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>garage</arg>
+<arg>timeout=12s</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-06-02T14:18:50.541450" elapsed="0.020929"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-06-02T14:18:50.563328" elapsed="2.300141"/>
+</kw>
+<doc>Search/Find garage - TC-LOC-001</doc>
+<tag>Functional</tag>
+<tag>Integration</tag>
+<tag>p1</tag>
+<tag>planned</tag>
+<status status="PASS" start="2026-06-02T14:18:48.849707" elapsed="4.014319"/>
+</test>
+<test id="s1-t4" name="FR-004 Request a roadside assistant :: TC-SRV-001" line="38">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:18:52.866150" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/auth'.</msg>
+<arg>${BASE_URL}/auth</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-06-02T14:18:52.865774" elapsed="1.538890"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>xpath=//form</arg>
+<arg>timeout=15s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-06-02T14:18:54.405758" elapsed="0.037728"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:18:54.446227" level="INFO">Typing text 'fanue000@gmail.com' into text field 'xpath=//*[@id="email"]'.</msg>
+<arg>xpath=//*[@id="email"]</arg>
+<arg>fanue000@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:18:54.445781" elapsed="0.240566"/>
+</kw>
+<arg>Input Text</arg>
+<arg>xpath=//*[@id="email"]</arg>
+<arg>fanue000@gmail.com</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:18:54.444567" elapsed="0.241985"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:18:54.688761" level="INFO">Typing text '12345678' into text field 'xpath=//*[@id="password"]'.</msg>
+<arg>xpath=//*[@id="password"]</arg>
+<arg>12345678</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:18:54.688281" elapsed="0.132000"/>
+</kw>
+<arg>Input Text</arg>
+<arg>xpath=//*[@id="password"]</arg>
+<arg>12345678</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:18:54.687305" elapsed="0.133297"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:18:54.822375" level="INFO">Clicking button 'xpath=//*[@id="root"]/div[2]/main/div/form/button'.</msg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div/form/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:18:54.821989" elapsed="0.189400"/>
+</kw>
+<arg>Click Button</arg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div/form/button</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:18:54.821319" elapsed="0.190473"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>xpath=//*[@id="root"]/div[2]/div[1]/header/div/div/a[4]/span[2]</arg>
+<arg>timeout=15s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-06-02T14:18:55.012589" elapsed="0.707854"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:18:55.722218" level="INFO">Clicking link 'xpath=//*[@id="root"]/div[2]/div[1]/section[1]/div[4]/div/div[2]/a[1]'.</msg>
+<arg>xpath=//*[@id="root"]/div[2]/div[1]/section[1]/div[4]/div/div[2]/a[1]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:18:55.721877" elapsed="0.184471"/>
+</kw>
+<arg>Click Link</arg>
+<arg>xpath=//*[@id="root"]/div[2]/div[1]/section[1]/div[4]/div/div[2]/a[1]</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:18:55.721270" elapsed="0.185561"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>xpath=//*[@id="root"]/div[2]/main/div[3]/a[1]/div[2]/button</arg>
+<arg>timeout=12s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-06-02T14:18:55.907817" elapsed="0.478896"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:18:56.389114" level="INFO">Clicking button 'xpath=//*[@id="root"]/div[2]/main/div[3]/a[1]/div[2]/button'.</msg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div[3]/a[1]/div[2]/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:18:56.388592" elapsed="0.204915"/>
+</kw>
+<arg>Click Button</arg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div[3]/a[1]/div[2]/button</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:18:56.387530" elapsed="0.206483"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>xpath=//*[@id="root"]/div[2]/main/div/div[2]/div/button</arg>
+<arg>timeout=12s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-06-02T14:18:56.595457" elapsed="0.897302"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:18:57.494853" level="INFO">Clicking button 'xpath=//*[@id="root"]/div[2]/main/div/div[2]/div/button'.</msg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div/div[2]/div/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:18:57.494355" elapsed="0.231230"/>
+</kw>
+<arg>Click Button</arg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div/div[2]/div/button</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:18:57.493576" elapsed="0.232411"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:18:57.729695" level="INFO">Clicking button 'xpath=//*[@id="radix-:ro:"]/div[2]/div[1]/div/button[1]'.</msg>
+<msg time="2026-06-02T14:18:57.991537" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-138.png"&gt;&lt;img src="selenium-screenshot-138.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-06-02T14:18:57.991887" level="FAIL">Button with locator 'xpath=//*[@id="radix-:ro:"]/div[2]/div[1]/div/button[1]' not found.</msg>
+<arg>xpath=//*[@id="radix-:ro:"]/div[2]/div[1]/div/button[1]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="FAIL" start="2026-06-02T14:18:57.728123" elapsed="0.266059">Button with locator 'xpath=//*[@id="radix-:ro:"]/div[2]/div[1]/div/button[1]' not found.</status>
+</kw>
+<arg>Click Button</arg>
+<arg>xpath=//*[@id="radix-:ro:"]/div[2]/div[1]/div/button[1]</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:18:57.726818" elapsed="0.267538"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:18:57.995729" level="INFO">Typing text '200' into text field 'xpath=//*[@id="radix-:ro:"]/div[2]/div[2]/input'.</msg>
+<msg time="2026-06-02T14:18:58.199570" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-139.png"&gt;&lt;img src="selenium-screenshot-139.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-06-02T14:18:58.199923" level="FAIL">Element with locator 'xpath=//*[@id="radix-:ro:"]/div[2]/div[2]/input' not found.</msg>
+<arg>xpath=//*[@id="radix-:ro:"]/div[2]/div[2]/input</arg>
+<arg>200</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="FAIL" start="2026-06-02T14:18:57.995387" elapsed="0.207405">Element with locator 'xpath=//*[@id="radix-:ro:"]/div[2]/div[2]/input' not found.</status>
+</kw>
+<arg>Input Text</arg>
+<arg>xpath=//*[@id="radix-:ro:"]/div[2]/div[2]/input</arg>
+<arg>200</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:18:57.994882" elapsed="0.208155"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Garage</arg>
+<arg>timeout=12s</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-06-02T14:18:58.203512" elapsed="0.021199"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-06-02T14:18:58.225256" elapsed="2.280790"/>
+</kw>
+<doc>Request roadside assistance - TC-SRV-001</doc>
+<tag>Functional</tag>
+<tag>Integration</tag>
+<tag>p1</tag>
+<tag>planned</tag>
+<status status="PASS" start="2026-06-02T14:18:52.864827" elapsed="7.642642"/>
+</test>
+<test id="s1-t5" name="FR-005 Browse Spare Parts :: TC-MKT-001" line="56">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:00.509547" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/spare-parts'.</msg>
+<arg>${BASE_URL}/spare-parts</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-06-02T14:19:00.509077" elapsed="2.016576"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>xpath=//*[@id="root"]/div[2]/main/div[1]/h1</arg>
+<arg>timeout=15s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-06-02T14:19:02.526537" elapsed="0.058413"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Page Should Contain Element" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:02.596971" level="INFO">Current page contains element 'xpath=//*[@id="root"]/div[2]/main/div[1]/h1'.</msg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div[1]/h1</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="PASS" start="2026-06-02T14:19:02.586225" elapsed="0.010891"/>
+</kw>
+<arg>Page Should Contain Element</arg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div[1]/h1</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:02.585618" elapsed="0.011612"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-06-02T14:19:02.597886" elapsed="2.284997"/>
+</kw>
+<doc>Browse spare parts listing - TC-MKT-001</doc>
+<tag>Functional</tag>
+<tag>p2</tag>
+<tag>planned</tag>
+<status status="PASS" start="2026-06-02T14:19:00.508303" elapsed="4.375012"/>
+</test>
+<test id="s1-t6" name="FR-006 Purchase Spareparts :: TC-ORD-001" line="63">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:04.885238" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/auth'.</msg>
+<arg>${BASE_URL}/auth</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-06-02T14:19:04.884874" elapsed="1.643045"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>xpath=//form</arg>
+<arg>timeout=15s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-06-02T14:19:06.529067" elapsed="0.034794"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:06.565569" level="INFO">Typing text 'fanue000@gmail.com' into text field 'xpath=//*[@id="email"]'.</msg>
+<arg>xpath=//*[@id="email"]</arg>
+<arg>fanue000@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:19:06.565177" elapsed="0.229010"/>
+</kw>
+<arg>Input Text</arg>
+<arg>xpath=//*[@id="email"]</arg>
+<arg>fanue000@gmail.com</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:06.564513" elapsed="0.229922"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:06.797561" level="INFO">Typing text '12345678' into text field 'xpath=//*[@id="password"]'.</msg>
+<arg>xpath=//*[@id="password"]</arg>
+<arg>12345678</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:19:06.796924" elapsed="0.153099"/>
+</kw>
+<arg>Input Text</arg>
+<arg>xpath=//*[@id="password"]</arg>
+<arg>12345678</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:06.795403" elapsed="0.154857"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:06.954088" level="INFO">Clicking button 'xpath=//*[@id="root"]/div[2]/main/div/form/button'.</msg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div/form/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:19:06.952953" elapsed="0.181604"/>
+</kw>
+<arg>Click Button</arg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div/form/button</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:06.951120" elapsed="0.183732"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:07.136713" level="INFO">Clicking link 'xpath=//*[@id="root"]/div[2]/div[1]/section[1]/div[4]/div/div[2]/a[2]'.</msg>
+<msg time="2026-06-02T14:19:07.282620" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-140.png"&gt;&lt;img src="selenium-screenshot-140.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-06-02T14:19:07.282946" level="FAIL">Link with locator 'xpath=//*[@id="root"]/div[2]/div[1]/section[1]/div[4]/div/div[2]/a[2]' not found.</msg>
+<arg>xpath=//*[@id="root"]/div[2]/div[1]/section[1]/div[4]/div/div[2]/a[2]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="FAIL" start="2026-06-02T14:19:07.136248" elapsed="0.148233">Link with locator 'xpath=//*[@id="root"]/div[2]/div[1]/section[1]/div[4]/div/div[2]/a[2]' not found.</status>
+</kw>
+<arg>Click Link</arg>
+<arg>xpath=//*[@id="root"]/div[2]/div[1]/section[1]/div[4]/div/div[2]/a[2]</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:07.135554" elapsed="0.149133"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:07.286105" level="INFO">Clicking button 'xpath=//*[@id="root"]/div[2]/main/div[3]/div[1]/div[2]/button'.</msg>
+<msg time="2026-06-02T14:19:07.456193" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-141.png"&gt;&lt;img src="selenium-screenshot-141.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-06-02T14:19:07.456395" level="FAIL">Button with locator 'xpath=//*[@id="root"]/div[2]/main/div[3]/div[1]/div[2]/button' not found.</msg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div[3]/div[1]/div[2]/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="FAIL" start="2026-06-02T14:19:07.285778" elapsed="0.171896">Button with locator 'xpath=//*[@id="root"]/div[2]/main/div[3]/div[1]/div[2]/button' not found.</status>
+</kw>
+<arg>Click Button</arg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div[3]/div[1]/div[2]/button</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:07.285190" elapsed="0.172643"/>
+</kw>
+<kw name="Reload Page" owner="SeleniumLibrary">
+<doc>Simulates user reloading page.</doc>
+<status status="PASS" start="2026-06-02T14:19:07.458195" elapsed="0.295580"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:07.758173" level="INFO">Clicking link 'xpath=//*[@id="root"]/div[2]/header/div/div/a[2]'.</msg>
+<arg>xpath=//*[@id="root"]/div[2]/header/div/div/a[2]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:19:07.757387" elapsed="0.141626"/>
+</kw>
+<arg>Click Link</arg>
+<arg>xpath=//*[@id="root"]/div[2]/header/div/div/a[2]</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:07.755059" elapsed="0.144373"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:07.903301" level="INFO">Clicking button 'xpath=//*[@id="root"]/div[2]/main/div[2]/div[2]/div[2]/button[1]'.</msg>
+<msg time="2026-06-02T14:19:08.063161" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-142.png"&gt;&lt;img src="selenium-screenshot-142.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-06-02T14:19:08.063371" level="FAIL">Button with locator 'xpath=//*[@id="root"]/div[2]/main/div[2]/div[2]/div[2]/button[1]' not found.</msg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div[2]/div[2]/div[2]/button[1]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="FAIL" start="2026-06-02T14:19:07.902389" elapsed="0.162361">Button with locator 'xpath=//*[@id="root"]/div[2]/main/div[2]/div[2]/div[2]/button[1]' not found.</status>
+</kw>
+<arg>Click Button</arg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div[2]/div[2]/div[2]/button[1]</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:07.901258" elapsed="0.163657"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:20.296059" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-143.png"&gt;&lt;img src="selenium-screenshot-143.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-06-02T14:19:20.296503" level="FAIL">Text 'Pay' did not appear in 12 seconds.</msg>
+<arg>Pay</arg>
+<arg>timeout=12s</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="FAIL" start="2026-06-02T14:19:08.065403" elapsed="12.234257">Text 'Pay' did not appear in 12 seconds.</status>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2026-06-02T14:19:20.300799" elapsed="0.000183"/>
+</kw>
+<doc>Purchase spare part via cart/checkout - TC-ORD-001</doc>
+<tag>Functional</tag>
+<tag>Integration</tag>
+<tag>p1</tag>
+<tag>planned</tag>
+<status status="FAIL" start="2026-06-02T14:19:04.884167" elapsed="15.418473">Text 'Pay' did not appear in 12 seconds.</status>
+</test>
+<test id="s1-t7" name="FR-007 Payment Processing :: TC-PAY-001" line="78">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:20.307562" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/auth'.</msg>
+<arg>${BASE_URL}/auth</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-06-02T14:19:20.306915" elapsed="1.800596"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>xpath=//form</arg>
+<arg>timeout=15s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-06-02T14:19:22.108143" elapsed="0.038020"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:22.147735" level="INFO">Typing text 'fanue000@gmail.com' into text field 'xpath=//*[@id="email"]'.</msg>
+<arg>xpath=//*[@id="email"]</arg>
+<arg>fanue000@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:19:22.147398" elapsed="0.315477"/>
+</kw>
+<arg>Input Text</arg>
+<arg>xpath=//*[@id="email"]</arg>
+<arg>fanue000@gmail.com</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:22.146736" elapsed="0.316291"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:22.464204" level="INFO">Typing text '12345678' into text field 'xpath=//*[@id="password"]'.</msg>
+<arg>xpath=//*[@id="password"]</arg>
+<arg>12345678</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:19:22.463893" elapsed="0.146195"/>
+</kw>
+<arg>Input Text</arg>
+<arg>xpath=//*[@id="password"]</arg>
+<arg>12345678</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:22.463401" elapsed="0.146983"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:22.612018" level="INFO">Clicking button 'xpath=//*[@id="root"]/div[2]/main/div/form/button'.</msg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div/form/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:19:22.611668" elapsed="0.130564"/>
+</kw>
+<arg>Click Button</arg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div/form/button</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:22.611124" elapsed="0.131491"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>xpath=//*[@id="root"]/div[2]/div[1]/header/div/div/a[4]/span[2]</arg>
+<arg>timeout=15s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-06-02T14:19:22.743886" elapsed="1.091091"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:23.836296" level="INFO">Opening url 'http://localhost:8080/wallet'</msg>
+<arg>${BASE_URL}/wallet</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2026-06-02T14:19:23.835954" elapsed="0.399065"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>xpath=//*[@id="root"]/div[2]/main/div[2]/div[2]/button[1]</arg>
+<arg>timeout=15s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-06-02T14:19:24.235731" elapsed="0.055134"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:24.294075" level="INFO">Clicking button 'xpath=//*[@id="root"]/div[2]/main/div[2]/div[2]/button[1]'.</msg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div[2]/div[2]/button[1]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:19:24.293144" elapsed="0.230051"/>
+</kw>
+<arg>Click Button</arg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div[2]/div[2]/button[1]</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:24.291518" elapsed="0.231821"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:24.524983" level="INFO">Typing text '100' into text field 'xpath=//*[@id="radix-:r0:"]/div[2]/div[1]/input'.</msg>
+<arg>xpath=//*[@id="radix-:r0:"]/div[2]/div[1]/input</arg>
+<arg>100</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:19:24.524669" elapsed="0.220810"/>
+</kw>
+<arg>Input Text</arg>
+<arg>xpath=//*[@id="radix-:r0:"]/div[2]/div[1]/input</arg>
+<arg>100</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:24.524156" elapsed="0.221581"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:24.749972" level="INFO">Clicking button 'xpath=//*[@id="radix-:r0:"]/div[2]/button'.</msg>
+<arg>xpath=//*[@id="radix-:r0:"]/div[2]/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:19:24.749024" elapsed="0.225636"/>
+</kw>
+<arg>Click Button</arg>
+<arg>xpath=//*[@id="radix-:r0:"]/div[2]/button</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:24.746458" elapsed="0.228489"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:24.978461" level="INFO">Typing text '0900112233' into text field 'xpath=//*[@id="test-number"]'.</msg>
+<msg time="2026-06-02T14:19:25.164828" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-144.png"&gt;&lt;img src="selenium-screenshot-144.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-06-02T14:19:25.165161" level="FAIL">Element with locator 'xpath=//*[@id="test-number"]' not found.</msg>
+<arg>xpath=//*[@id="test-number"]</arg>
+<arg>0900112233</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="FAIL" start="2026-06-02T14:19:24.977176" elapsed="0.189895">Element with locator 'xpath=//*[@id="test-number"]' not found.</status>
+</kw>
+<arg>Input Text</arg>
+<arg>xpath=//*[@id="test-number"]</arg>
+<arg>0900112233</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:24.976120" elapsed="0.191149"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:25.168954" level="INFO">Clicking button 'xpath=//*[@id="app"]/main/div/div[1]/div[1]/div[3]/div/div/div[2]/form/button'.</msg>
+<msg time="2026-06-02T14:19:25.401570" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-145.png"&gt;&lt;img src="selenium-screenshot-145.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-06-02T14:19:25.401943" level="FAIL">Button with locator 'xpath=//*[@id="app"]/main/div/div[1]/div[1]/div[3]/div/div/div[2]/form/button' not found.</msg>
+<arg>xpath=//*[@id="app"]/main/div/div[1]/div[1]/div[3]/div/div/div[2]/form/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="FAIL" start="2026-06-02T14:19:25.168514" elapsed="0.236450">Button with locator 'xpath=//*[@id="app"]/main/div/div[1]/div[1]/div[3]/div/div/div[2]/form/button' not found.</status>
+</kw>
+<arg>Click Button</arg>
+<arg>xpath=//*[@id="app"]/main/div/div[1]/div[1]/div[3]/div/div/div[2]/form/button</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:25.167829" elapsed="0.237722"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>xpath=//*[@id="root"]/div[2]/main/div[2]</arg>
+<arg>timeout=15s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-06-02T14:19:25.406418" elapsed="0.217441"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:25.653871" level="INFO">Current page contains text 'Balance'.</msg>
+<arg>Balance</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-06-02T14:19:25.625054" elapsed="0.029000"/>
+</kw>
+<arg>Page Should Contain</arg>
+<arg>Balance</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:25.624528" elapsed="0.029692"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-06-02T14:19:25.654759" elapsed="2.410786"/>
+</kw>
+<doc>Payment processing page/flow - TC-PAY-001</doc>
+<tag>Functional</tag>
+<tag>p1</tag>
+<tag>planned</tag>
+<tag>Security</tag>
+<status status="PASS" start="2026-06-02T14:19:20.305066" elapsed="7.760961"/>
+</test>
+<test id="s1-t8" name="FR-008 Rating &amp; Review :: TC-REV-001" line="97">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:28.068125" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/auth'.</msg>
+<arg>${BASE_URL}/auth</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-06-02T14:19:28.067710" elapsed="2.474397"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>xpath=//form</arg>
+<arg>timeout=15s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-06-02T14:19:30.542910" elapsed="0.034615"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:30.579280" level="INFO">Typing text 'fanue000@gmail.com' into text field 'xpath=//*[@id="email"]'.</msg>
+<arg>xpath=//*[@id="email"]</arg>
+<arg>fanue000@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:19:30.578935" elapsed="0.231204"/>
+</kw>
+<arg>Input Text</arg>
+<arg>xpath=//*[@id="email"]</arg>
+<arg>fanue000@gmail.com</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:30.578372" elapsed="0.232120"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:30.812125" level="INFO">Typing text '12345678' into text field 'xpath=//*[@id="password"]'.</msg>
+<arg>xpath=//*[@id="password"]</arg>
+<arg>12345678</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:19:30.811794" elapsed="0.168182"/>
+</kw>
+<arg>Input Text</arg>
+<arg>xpath=//*[@id="password"]</arg>
+<arg>12345678</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:30.811178" elapsed="0.169155"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:30.982032" level="INFO">Clicking button 'xpath=//*[@id="root"]/div[2]/main/div/form/button'.</msg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div/form/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:19:30.981527" elapsed="0.154287"/>
+</kw>
+<arg>Click Button</arg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div/form/button</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:30.980920" elapsed="0.155456"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>xpath=//*[@id="root"]/div[2]/div[1]/header/div/div/a[4]/span[2]</arg>
+<arg>timeout=15s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-06-02T14:19:31.137509" elapsed="0.738466"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:31.878543" level="INFO">Clicking link 'xpath=//*[@id="root"]/div[2]/div[1]/section[1]/div[4]/div/div[2]/a[2]'.</msg>
+<arg>xpath=//*[@id="root"]/div[2]/div[1]/section[1]/div[4]/div/div[2]/a[2]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:19:31.877841" elapsed="0.178203"/>
+</kw>
+<arg>Click Link</arg>
+<arg>xpath=//*[@id="root"]/div[2]/div[1]/section[1]/div[4]/div/div[2]/a[2]</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:31.876874" elapsed="0.179593"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>xpath=//*[@id="root"]/div[2]/main/div[1]/h1</arg>
+<arg>timeout=15s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-06-02T14:19:32.057237" elapsed="0.021717"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:32.083121" level="INFO">Clicking link 'xpath=//*[@id="root"]/div[2]/main/div[3]/a[1]'.</msg>
+<msg time="2026-06-02T14:19:32.258011" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-146.png"&gt;&lt;img src="selenium-screenshot-146.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-06-02T14:19:32.258333" level="FAIL">Link with locator 'xpath=//*[@id="root"]/div[2]/main/div[3]/a[1]' not found.</msg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div[3]/a[1]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="FAIL" start="2026-06-02T14:19:32.082253" elapsed="0.178340">Link with locator 'xpath=//*[@id="root"]/div[2]/main/div[3]/a[1]' not found.</status>
+</kw>
+<arg>Click Link</arg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div[3]/a[1]</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:32.080650" elapsed="0.180217"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:32.264108" level="INFO">Typing text 'Good service' into text field 'xpath=/html/body/div/div[2]/main/div/div[1]/div[3]/div[1]/textarea'.</msg>
+<msg time="2026-06-02T14:19:32.422751" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-147.png"&gt;&lt;img src="selenium-screenshot-147.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-06-02T14:19:32.423179" level="FAIL">Element with locator 'xpath=/html/body/div/div[2]/main/div/div[1]/div[3]/div[1]/textarea' not found.</msg>
+<arg>xpath=/html/body/div/div[2]/main/div/div[1]/div[3]/div[1]/textarea</arg>
+<arg>Good service</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="FAIL" start="2026-06-02T14:19:32.262647" elapsed="0.163853">Element with locator 'xpath=/html/body/div/div[2]/main/div/div[1]/div[3]/div[1]/textarea' not found.</status>
+</kw>
+<arg>Input Text</arg>
+<arg>xpath=/html/body/div/div[2]/main/div/div[1]/div[3]/div[1]/textarea</arg>
+<arg>Good service</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:32.262014" elapsed="0.164781"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:32.428821" level="INFO">Clicking button 'xpath=//*[@id="root"]/div[2]/main/div/div[1]/div[3]/div[1]/button'.</msg>
+<msg time="2026-06-02T14:19:32.677483" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-148.png"&gt;&lt;img src="selenium-screenshot-148.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-06-02T14:19:32.677769" level="FAIL">Button with locator 'xpath=//*[@id="root"]/div[2]/main/div/div[1]/div[3]/div[1]/button' not found.</msg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div/div[1]/div[3]/div[1]/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="FAIL" start="2026-06-02T14:19:32.428385" elapsed="0.252027">Button with locator 'xpath=//*[@id="root"]/div[2]/main/div/div[1]/div[3]/div[1]/button' not found.</status>
+</kw>
+<arg>Click Button</arg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div/div[1]/div[3]/div[1]/button</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:32.427684" elapsed="0.253107"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>R</arg>
+<arg>timeout=12s</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-06-02T14:19:32.681722" elapsed="0.044682"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-06-02T14:19:32.727172" elapsed="2.405702"/>
+</kw>
+<doc>Leave rating and review - TC-REV-001</doc>
+<tag>Functional</tag>
+<tag>p2</tag>
+<tag>planned</tag>
+<status status="PASS" start="2026-06-02T14:19:28.066905" elapsed="7.066552"/>
+</test>
+<test id="s1-t9" name="FR-009 Admin Account Management :: TC-ADM-001" line="113">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:35.136041" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/admin/login'.</msg>
+<arg>${BASE_URL}/admin/login</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-06-02T14:19:35.135582" elapsed="2.098580"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>xpath=//form</arg>
+<arg>timeout=15s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-06-02T14:19:37.235414" elapsed="0.054991"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:37.292174" level="INFO">Typing text 'fanuelman10@gmail.com' into text field 'xpath=//*[@id="email"]'.</msg>
+<arg>xpath=//*[@id="email"]</arg>
+<arg>fanuelman10@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:19:37.291819" elapsed="0.208425"/>
+</kw>
+<arg>Input Text</arg>
+<arg>xpath=//*[@id="email"]</arg>
+<arg>fanuelman10@gmail.com</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:37.291092" elapsed="0.209614"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:37.504127" level="INFO">Typing text '12345678' into text field 'xpath=//*[@id="password"]'.</msg>
+<arg>xpath=//*[@id="password"]</arg>
+<arg>12345678</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:19:37.503254" elapsed="0.159568"/>
+</kw>
+<arg>Input Text</arg>
+<arg>xpath=//*[@id="password"]</arg>
+<arg>12345678</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:37.501611" elapsed="0.161544"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:37.665537" level="INFO">Clicking button 'xpath=//*[@id="root"]/div[2]/div/form/button'.</msg>
+<arg>xpath=//*[@id="root"]/div[2]/div/form/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:19:37.664879" elapsed="0.154006"/>
+</kw>
+<arg>Click Button</arg>
+<arg>xpath=//*[@id="root"]/div[2]/div/form/button</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:37.663943" elapsed="0.155229"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>xpath=//*[@id="root"]/div[2]/main/h1</arg>
+<arg>timeout=15s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-06-02T14:19:37.820156" elapsed="1.536275"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-06-02T14:19:39.357462" elapsed="2.304809"/>
+</kw>
+<doc>Admin login and manage users - TC-ADM-001</doc>
+<tag>Functional</tag>
+<tag>p1</tag>
+<tag>planned</tag>
+<tag>Security</tag>
+<status status="PASS" start="2026-06-02T14:19:35.134471" elapsed="6.528289"/>
+</test>
+<test id="s1-t10" name="FR-010 User Logout :: TC-AUTH-002" line="123">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:41.665470" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/auth'.</msg>
+<arg>${BASE_URL}/auth</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-06-02T14:19:41.665058" elapsed="1.667075"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>xpath=//form</arg>
+<arg>timeout=15s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-06-02T14:19:43.332865" elapsed="0.035331"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:43.370177" level="INFO">Typing text 'fanue000@gmail.com' into text field 'xpath=//*[@id="email"]'.</msg>
+<arg>xpath=//*[@id="email"]</arg>
+<arg>fanue000@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:19:43.369618" elapsed="0.289917"/>
+</kw>
+<arg>Input Text</arg>
+<arg>xpath=//*[@id="email"]</arg>
+<arg>fanue000@gmail.com</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:43.368825" elapsed="0.290935"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:43.661547" level="INFO">Typing text '12345678' into text field 'xpath=//*[@id="password"]'.</msg>
+<arg>xpath=//*[@id="password"]</arg>
+<arg>12345678</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:19:43.661053" elapsed="0.264712"/>
+</kw>
+<arg>Input Text</arg>
+<arg>xpath=//*[@id="password"]</arg>
+<arg>12345678</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:43.660305" elapsed="0.265834"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:43.927943" level="INFO">Clicking button 'xpath=//*[@id="root"]/div[2]/main/div/form/button'.</msg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div/form/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:19:43.927482" elapsed="0.147789"/>
+</kw>
+<arg>Click Button</arg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div/form/button</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:43.926740" elapsed="0.148745"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>xpath=//*[@id="root"]/div[2]/div[1]/header/div/div/a[5]</arg>
+<arg>timeout=15s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-06-02T14:19:44.076189" elapsed="0.941178"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:45.020030" level="INFO">Clicking link 'xpath=//*[@id="root"]/div[2]/div[1]/header/div/div/a[5]'.</msg>
+<arg>xpath=//*[@id="root"]/div[2]/div[1]/header/div/div/a[5]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:19:45.019452" elapsed="0.228812"/>
+</kw>
+<arg>Click Link</arg>
+<arg>xpath=//*[@id="root"]/div[2]/div[1]/header/div/div/a[5]</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:45.018368" elapsed="0.230126"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-06-02T14:19:45.251404" level="INFO">Clicking button 'xpath=//*[@id="root"]/div[2]/main/div/div[4]/div/button'.</msg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div/div[4]/div/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-02T14:19:45.250579" elapsed="0.205401"/>
+</kw>
+<arg>Click Button</arg>
+<arg>xpath=//*[@id="root"]/div[2]/main/div/div[4]/div/button</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-06-02T14:19:45.249191" elapsed="0.207013"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>xpath=//form</arg>
+<arg>timeout=12s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-06-02T14:19:45.456984" elapsed="0.746325"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-06-02T14:19:46.204396" elapsed="2.346033"/>
+</kw>
+<doc>Logout - TC-AUTH-002</doc>
+<tag>Functional</tag>
+<tag>p1</tag>
+<tag>planned</tag>
+<tag>Security</tag>
+<status status="PASS" start="2026-06-02T14:19:41.664288" elapsed="6.886964"/>
+</test>
+<status status="FAIL" start="2026-06-02T14:18:28.746306" elapsed="79.806637"/>
+</suite>
+<statistics>
+<total>
+<stat pass="9" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="9" fail="1" skip="0">Functional</stat>
+<stat pass="2" fail="1" skip="0">Integration</stat>
+<stat pass="7" fail="1" skip="0">p1</stat>
+<stat pass="2" fail="0" skip="0">p2</stat>
+<stat pass="9" fail="1" skip="0">planned</stat>
+<stat pass="4" fail="0" skip="0">Security</stat>
+</tag>
+<suite>
+<stat name="All Tests" id="s1" pass="9" fail="1" skip="0">All Tests</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-06-02T14:18:29.332451" level="ERROR">Error in file 'C:\Users\fanue\OneDrive\Desktop\GarageGo V1.4\robot_tests\resources\keywords.robot' on line 3: Processing variable file '../variables.robot' failed: Importing variable file '../variables.robot' failed: ModuleNotFoundError: No module named '.'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\fanue\OneDrive\Desktop\GarageGo V1.4\.venv\Scripts\robot.exe
+  C:\Python314\python314.zip
+  C:\Python314\DLLs
+  C:\Python314\Lib
+  C:\Python314
+  C:\Users\fanue\OneDrive\Desktop\GarageGo V1.3\.venv
+  C:\Users\fanue\OneDrive\Desktop\GarageGo V1.3\.venv\Lib\site-packages</msg>
+</errors>
+</robot>
